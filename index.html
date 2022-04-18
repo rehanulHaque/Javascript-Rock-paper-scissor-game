@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor Game</title>
+</head>
+<body>
+    <h1>Javascript Game</h1>
+    <div class="container">
+        <div class="score">
+            <div class="player"><p class="playerName">Player</p> <p id="playerScore">0</p></div>
+            <div class="player"><p class="playerComputer">Computer</p> <p id="computeerScore">0</p></div>
+        </div>
+
+
+        <div class="gameover" id="gameover">
+            <h2><span id="wonlostOver">Won</span></h1>
+            <div class="btn" id="restartBtn">Start Again</div>
+        </div>
+        <div class="hideContainer">
+            
+        
+        <div class="move">
+            <h2>Choose Your Move</h2>
+            <p class="leftMove">Move Left <span id="leftMove">0</span></p>
+        </div>
+        <div class="buttons">
+            <button class="btn" id="zero" value="0">Rock</button>
+            <button class="btn" id="one" value="1">Paper</button>
+            <button class="btn" id="two" value="2">Scissor</button>
+        </div>
+        <div class="decide">
+            <h2 class="won"><span id="wonLost"></span></h2>
+        </div>
+    </div>
+    </div>
+</body><script src="script.js"></script>
+</html>
